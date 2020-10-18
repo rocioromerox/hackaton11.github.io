@@ -1,0 +1,74 @@
+<!--
+Crear un TodoList, que agregue tareas las elimine y se indique cuando se culminó, 
+de manera opcional el todo list podrá ser filtrado por tarea completa o incompleta.
+Crear interfaz en html y css
+Agregar evento al formulario
+Crear función para agregar item a la lista
+Crear función para eliminar item
+Crear función para chequear o deschequear item
+Registrar eventos para las funciones
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades</title>
+    <link rel="stylesheet" href="./actividades.css">
+</head>
+<body>
+    <div class="principal">
+        <h1>To do list</h1>
+
+
+        <h2>Ingreso de actividades</h2>
+        <div class="container">
+            <form for="newActivitie"></form><input id="newActivitie" type="text"><button>Agregar</button>
+    
+        <h2>Actividades incompletas</h2>
+        <div class="activities">
+            <div>
+                <ul id="actividadesIncompletas">
+                     <li class="list">
+                        <input type="checkbox"><label>Pasear a Elfo</label>
+                        <button class="delete">Borrar</button>
+                     </li>
+                     <li class="list">
+                        <input type="checkbox"><label>Tomar pastilla</label>
+                        <button class="delete">Borrar</button>
+                    </li>
+                    <li class="list">
+                        <input type="checkbox"><label>Ir al Metro</label>
+                        <button class="delete">Borrar</button>
+                    </li>  
+                </ul>
+            </div>
+        </div>
+
+
+        <h2>Actividades completadas</h2>
+
+                <ul id="actividadesCompletas">
+                    <li>
+                        <input type="checkbox" checked><label>Cocinar la cena</label>
+                        <button class="delete">Borrar</button>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" checked><label>Pagar la luz</label>
+                        <button class="delete">Borrar</button>
+                    </li>
+                </ul>
+    </div>
+    
+    
+
+
+   
+
+
+    <script src="./actividades.js"></script>
+    
+</body>
+</html>

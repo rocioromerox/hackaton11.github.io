@@ -1,0 +1,44 @@
+.calculator {
+    margin:0 auto;
+    padding:10px;
+    background-color:pink;
+    width:350px;
+    height:650px;
+    display:block;
+}
+
+.calculator td button{
+    width: 105px;
+    height: 80px;
+    font-size: 20px;
+    color: black;
+    display:block;
+    
+}
+
+.number {
+    background-color:red;
+}
+
+.operation {
+    background-color: cornflowerblue;
+}
+
+.operationEqual {
+    background-color: darkgreen;
+}
+
+.operationReset {
+    background-color:black;
+    text-align: center;
+}
+
+#result {
+    display:block;
+    text-align: right;
+    font-size: 30px;
+    margin-bottom: 10px;
+    width:100%;
+    height: 100px;
+    background-color: gainsboro;
+}
